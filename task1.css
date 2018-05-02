@@ -1,0 +1,20 @@
+.container{
+    text-align: center;
+    margin-top: 20%;
+}
+.before{
+    width:20%;
+    transition: all 2s cubic-bezier(0,0,1,1) 0s;
+}
+.afterClick{
+    width:0%;
+    transition: all 2s cubic-bezier(0,0,1,1) 0s;
+}
+.transfromStyle{
+    cursor: pointer;
+    background-color: pink;
+    border-radius: 10px;
+    width: 8%;
+    color: white;
+    margin: auto;
+}
